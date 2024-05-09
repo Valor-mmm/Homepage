@@ -31,6 +31,7 @@ export default function LocaleLayout({
       <body className="dark text-foreground bg-background">
         <Providers locale={locale}>
           <Navbar />
+
           <main>{children}</main>
         </Providers>
       </body>

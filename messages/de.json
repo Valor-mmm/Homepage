@@ -5,5 +5,15 @@
   "Metadata": {
     "title": "Stefan Hauser",
     "description": "Homepage von Stefan Hauser, auch bekannt als Valor"
+  },
+  "Header": {
+    "Navbar": {
+      "openMenu": "Navigation öffnen",
+      "closeMenu": "Navigation schließen",
+      "home": "Home",
+      "cv": "Lebenslauf",
+      "skills": "Skills",
+      "contact": "Kontakt"
+    }
   }
 }
