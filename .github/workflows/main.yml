@@ -1,0 +1,22 @@
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  lint:
+    uses: ./.github/workflows/_lint.yml
+  audit:
+    uses: ./.github/workflows/_audit.yml
+  semantic-release:
+    needs:
+      - 'lint'
+      - 'audit'
+    uses: ./.github/workflows/_release.yml
+    with:
+      dry-run: false
+    # Need to match the permissions from the reusable workflow _release
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write

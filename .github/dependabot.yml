@@ -1,0 +1,46 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm' # See documentation for possible values
+    directory: '/' # Location of package manifests
+    schedule:
+      interval: 'weekly'
+    groups:
+      next:
+        patterns:
+          - '*next*'
+          - 'react'
+          - 'react-dom'
+          - '@types/react'
+          - '@types/react-dom'
+        update-types:
+          - 'major'
+          - 'minor'
+      ui:
+        patterns:
+          - 'tailwindcss'
+          - 'postcss'
+          - 'framer-motion'
+          - '*nextui-org*'
+      release:
+        patterns:
+          - '*commitlint*'
+          - '*semantic-release*'
+        update-types:
+          - 'major'
+          - 'minor'
+      eslint:
+        patterns:
+          - '*eslint*'
+      commit:
+        patterns:
+          - 'husky'
+          - 'lint-staged'
+        update-types:
+          - 'major'
+          - 'minor'
+      minors:
+        update-types:
+          - 'minor'
+      patches:
+        update-types:
+          - 'patch'

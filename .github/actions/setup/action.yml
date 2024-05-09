@@ -1,0 +1,14 @@
+name: 'Setup Node and PNPM'
+description: 'Reusable action to setup pnpm'
+runs:
+  using: 'composite'
+  steps:
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 20
+    - uses: pnpm/action-setup@v3
+      with:
+        version: 9
+        run_install: |
+          - recursive: true
+            args: [--frozen-lockfile, --strict-peer-dependencies]

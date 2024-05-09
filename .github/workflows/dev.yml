@@ -1,0 +1,19 @@
+on:
+  push:
+    branches-ignore:
+      - 'main'
+jobs:
+  lint:
+    uses: ./.github/workflows/_lint.yml
+  audit:
+    uses: ./.github/workflows/_audit.yml
+  semantic-release-dry-run:
+    uses: ./.github/workflows/_release.yml
+    with:
+      dry-run: true
+    # Need to machtch the permissions from the reusable workflow _release
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
