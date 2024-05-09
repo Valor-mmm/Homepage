@@ -1,8 +1,8 @@
-# HauserMetall-Website
+# Valor Homepage
 
 ## About
 
-This is the future version of the hauser metall website.
+This is my homepage
 
 ## Getting Started
 
