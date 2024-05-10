@@ -16,8 +16,8 @@ const config: Config = {
       themes: {
         light: {
           colors: {
-            primary: '#0b3961',
-            secondary: '#13c6e4',
+            primary: '#13c6e4',
+            secondary: '#0b3961',
           },
         },
         dark: {
