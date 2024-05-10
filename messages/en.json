@@ -3,7 +3,17 @@
     "title": "Hello world!"
   },
   "Metadata": {
-    "title": "Hauser Metall",
-    "description": "Website of the Hauser Metall company"
+    "title": "Stefan Hauser",
+    "description": "Homepage of Stefan Hauser, also known as Valor"
+  },
+  "Header": {
+    "Navbar": {
+      "openMenu": "Open navigation",
+      "closeMenu": "Close Navigation",
+      "home": "Home",
+      "cv": "CV",
+      "skills": "Skills",
+      "contact": "Contact"
+    }
   }
 }

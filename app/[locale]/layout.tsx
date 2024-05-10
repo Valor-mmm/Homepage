@@ -3,6 +3,7 @@ import '../globals.css';
 import { getTranslations } from 'next-intl/server';
 import { Providers } from '@/app/[locale]/providers';
 import Navbar from '@/components/navbar/navbar';
+import { Footer } from '@/components/footer/footer';
 
 type Props = {
   params: { locale: string };
@@ -31,7 +32,10 @@ export default function LocaleLayout({
       <body className="dark text-foreground bg-background">
         <Providers locale={locale}>
           <Navbar />
-          <main>{children}</main>
+          <main className="flex min-h-screen flex-col items-center justify-between p-24">
+            {children}
+          </main>
+          <Footer />
         </Providers>
       </body>
     </html>

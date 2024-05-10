@@ -1,31 +1,22 @@
-import React from 'react';
-import {
-  Navbar as NextUiNavbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
-} from '@nextui-org/navbar';
-import { Button } from '@nextui-org/button';
+import { useTranslations } from 'next-intl';
+import ClientNavbar, {
+  type NavbarLinkType,
+} from '@/components/navbar/clientNavbar';
+
+const anchorLinks = ['cv', 'skills', 'contact'];
 
 export default function Navbar() {
+  const t = useTranslations('Header.Navbar');
+  const anchorLinkDetails: NavbarLinkType[] = anchorLinks.map((link) => ({
+    href: `#${link}`,
+    text: t(link),
+  }));
+
   return (
-    <NextUiNavbar>
-      <NavbarBrand>
-        <p className="font-bold text-inherit">ACME</p>
-      </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>First Nav</NavbarItem>
-        <NavbarItem isActive>Second Nav</NavbarItem>
-        <NavbarItem>Third Nav</NavbarItem>
-      </NavbarContent>
-      <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Button color="primary">Nav Action 1</Button>
-        </NavbarItem>
-        <NavbarItem>
-          <Button color="secondary">Nav Action 2</Button>
-        </NavbarItem>
-      </NavbarContent>
-    </NextUiNavbar>
+    <ClientNavbar
+      menuOpenText={t('openMenu')}
+      menuCloseText={t('closeMenu')}
+      anchorLinks={[{ text: t('home'), href: '' }, ...anchorLinkDetails]}
+    />
   );
 }
