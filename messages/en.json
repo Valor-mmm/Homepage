@@ -15,5 +15,72 @@
       "skills": "Skills",
       "contact": "Contact"
     }
+  },
+  "CV": {
+    "title": "Curriculum vitae",
+    "ariaLabel": "Curriculum vitae in various views",
+    "educationTitle": "Education",
+    "workTitle": "Work experience",
+    "detailTimelineTitle": "Detailed timeline",
+    "DetailTimeline": {
+      "School": {
+        "title": "A Level Degree",
+        "description": "Regental Gymnasium Nittenau",
+        "footer": "GDP: 1.7",
+        "date": "2014"
+      },
+      "BachelorStart": {
+        "title": "Start Bachelor General IT",
+        "description": "Ostbayrische technische Hochschule Regensburg",
+        "date": "October 2014"
+      },
+      "Internship": {
+        "title": "Internship as Software developer at the knowis AG in Regensburg",
+        "description": "Part of a full stack Team which develops a banking software.",
+        "footer": "Python, Java 1.8, Javascript, Dojo v1",
+        "date": "September 2016 - February 2017"
+      },
+      "WorkingStudentStart": {
+        "title": "Start: Working student Frontend at knowis AG in Regensburg",
+        "description": "Part of two different full stack scrum teams to develop two banking applications.",
+        "footer": "Javascript, Dojo v1, React",
+        "date": "March 2017"
+      },
+      "BachelorEnd": {
+        "title": "Bachelor of Science in IT",
+        "description": "Ostbayrische technische Hochschule Regensburg",
+        "footer": "GDP: 1.9",
+        "date": "September 2018"
+      },
+      "MasterStart": {
+        "title": "Start Master in IT; Focus on Software Engineering",
+        "description": "Ostbayrische technische Hochschule Regensburg",
+        "date": "October 2018"
+      },
+      "WorkingStudentEnd": {
+        "title": "End: Working student Frontend at knowis AG in Regensburg",
+        "description": "Part of two different full stack scrum teams to develop two banking applications.",
+        "footer": "Javascript, Dojo v1, React",
+        "date": "Februar 2020"
+      },
+      "MasterEnd": {
+        "title": "Master of Science in IT; Focus on Software Engineering",
+        "description": "Ostbayrische technische Hochschule Regensburg",
+        "footer": "GDP: 1.9",
+        "date": "April 2020"
+      },
+      "StartWitt": {
+        "title": "Frontend Developer at the Witt Group",
+        "description": "Part of a cross functional Team which develops the e-commerce website of the witt group.",
+        "footer": "Javascript, Typescript, React, NextJS",
+        "date": "April 2020"
+      },
+      "TechnicalLead": {
+        "title": "Technical Lead Frontend at the Witt Group",
+        "description": "Technical Lead of a cross functional Team which develops the e-commerce website of the witt group.",
+        "footer": "Javascript, Typescript, React, NextJS",
+        "date": "October 2024 - Now"
+      }
+    }
   }
 }
