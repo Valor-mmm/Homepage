@@ -29,7 +29,7 @@ export default function LocaleLayout({
 }) {
   return (
     <html lang={locale}>
-      <body className="dark text-foreground bg-background">
+      <body className="text-foreground bg-background">
         <Providers locale={locale}>
           <Navbar />
           <main className="flex min-h-screen flex-col items-center justify-start p-24">
