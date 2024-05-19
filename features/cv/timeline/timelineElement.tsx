@@ -5,6 +5,7 @@ import {
   VerticalTimelineElementProps,
 } from 'react-vertical-timeline-component';
 import { PropsWithChildren, ReactNode } from 'react';
+import { useTheme } from 'next-themes';
 
 interface TimelineElementProps {
   color: string;
@@ -18,6 +19,9 @@ export const TimelineElement = ({
   color,
   ...props
 }: PropsWithChildren<TimelineElementProps>) => {
+  const { theme } = useTheme();
+  const iconColor = theme === 'light' ? 'black' : 'white';
+
   return (
     <VerticalTimelineElement
       visible
@@ -29,7 +33,11 @@ export const TimelineElement = ({
         boxShadow: 'none',
       }}
       contentArrowStyle={{ borderRight: `10px solid ${color}` }}
-      iconStyle={{ background: color, color: '#fff' }}
+      iconStyle={{
+        background: color,
+        color: iconColor,
+        boxShadow: `0 0 0 4px ${iconColor}`,
+      }}
       {...props}
     >
       {children}
