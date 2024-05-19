@@ -4,6 +4,7 @@ import { getTranslations } from 'next-intl/server';
 import { Providers } from '@/app/[locale]/providers';
 import Navbar from '@/components/navbar/navbar';
 import { Footer } from '@/components/footer/footer';
+import { ReactNode } from 'react';
 
 type Props = {
   params: { locale: string };
@@ -24,7 +25,7 @@ export default function LocaleLayout({
   children,
   params: { locale },
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
   params: { locale: string };
 }) {
   return (

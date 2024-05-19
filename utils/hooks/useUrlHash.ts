@@ -11,7 +11,6 @@ export const useUrlHash = () => {
     const handleHashChange = (event: HashChangeEvent) => {
       try {
         const url = new URL(event.newURL);
-        console.log('URL Hash', url.hash);
         setUrlHash(url.hash);
       } catch (error) {
         console.warn('Could not parse URL Hash', event.newURL);
