@@ -1,6 +1,7 @@
 'use client';
 
 import { NextUIProvider } from '@nextui-org/system';
+import { ThemeProvider as NextThemesProvider } from 'next-themes';
 import { PropsWithChildren } from 'react';
 import { useRouter } from 'next/navigation';
 
@@ -16,7 +17,9 @@ export const Providers = ({
 
   return (
     <NextUIProvider locale={locale} navigate={router.push}>
-      {children}
+      <NextThemesProvider attribute="class" defaultTheme="dark">
+        {children}
+      </NextThemesProvider>
     </NextUIProvider>
   );
 };

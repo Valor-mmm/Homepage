@@ -40,7 +40,6 @@ export default function ClientNavbar({
   const navLinks: NavbarItemType[] = useMemo(
     () =>
       anchorLinks.map(({ href, text }) => {
-        console.log(href, urlHash);
         const isActive = urlHash === href;
         return { href, linkText: text, isActive };
       }),
@@ -48,21 +47,26 @@ export default function ClientNavbar({
   );
 
   return (
-    <NextUiNavbar onMenuOpenChange={setIsMenuOpen} isBlurred className="sm:p-4">
+    <NextUiNavbar
+      onMenuOpenChange={setIsMenuOpen}
+      isBlurred
+      isBordered
+      className="sm:p-4"
+    >
       <NavbarContent className="sm:hidden">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? menuCloseText : menuOpenText}
         />
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="start">
+      <NavbarContent className="hidden sm:flex gap-6" justify="start">
         {navLinks.map(({ href, isActive, linkText }, index) => (
           <NavbarItem key={`${href}-${index}`} isActive={isActive}>
             <Link
               href={href}
               color={isActive ? 'primary' : 'foreground'}
               aria-current={'page'}
-              className="text-2xl"
+              className="text-3xl"
             >
               {linkText}
             </Link>

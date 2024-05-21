@@ -18,15 +18,22 @@
   },
   "dependencies": {
     "@nextui-org/button": "2.0.31",
+    "@nextui-org/card": "2.0.28",
+    "@nextui-org/chip": "2.0.28",
+    "@nextui-org/divider": "2.0.27",
     "@nextui-org/link": "2.0.29",
     "@nextui-org/navbar": "2.0.30",
     "@nextui-org/system": "2.1.2",
+    "@nextui-org/tabs": "^2.0.29",
     "@nextui-org/theme": "2.2.3",
     "framer-motion": "11.1.7",
     "next": "14.2.1",
     "next-intl": "3.11.3",
+    "next-themes": "0.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "5.2.1",
+    "react-vertical-timeline-component": "3.6.0"
   },
   "devDependencies": {
     "@commitlint/cli": "19.2.2",
@@ -38,6 +45,7 @@
     "@types/node": "20.12.7",
     "@types/react": "18.2.78",
     "@types/react-dom": "18.2.25",
+    "@types/react-vertical-timeline-component": "3.3.6",
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.1",
     "eslint-config-prettier": "9.1.0",

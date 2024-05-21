@@ -4,6 +4,7 @@ import { getTranslations } from 'next-intl/server';
 import { Providers } from '@/app/[locale]/providers';
 import Navbar from '@/components/navbar/navbar';
 import { Footer } from '@/components/footer/footer';
+import { ReactNode } from 'react';
 
 type Props = {
   params: { locale: string };
@@ -24,15 +25,15 @@ export default function LocaleLayout({
   children,
   params: { locale },
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
   params: { locale: string };
 }) {
   return (
     <html lang={locale}>
-      <body className="dark text-foreground bg-background">
+      <body className="text-foreground bg-background">
         <Providers locale={locale}>
           <Navbar />
-          <main className="flex min-h-screen flex-col items-center justify-between p-24">
+          <main className="flex min-h-screen flex-col items-center justify-start p-8 2xl:p-20">
             {children}
           </main>
           <Footer />

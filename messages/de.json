@@ -1,7 +1,4 @@
 {
-  "Index": {
-    "title": "Hallo Welt!"
-  },
   "Metadata": {
     "title": "Stefan Hauser",
     "description": "Homepage von Stefan Hauser, auch bekannt als Valor"
@@ -14,6 +11,161 @@
       "cv": "Lebenslauf",
       "skills": "Skills",
       "contact": "Kontakt"
+    }
+  },
+  "CV": {
+    "General": {
+      "title": "Lebenslauf",
+      "description": "In meinem Lebenslauf finden Sie detaillierte Informationen zu meiner Ausbildung und Berufserfahrung. Dieser Abschnitt zeigt meine Qualifikationen und Erfolge und veranschaulicht meinen Werdegang als Frontend-Entwickler.",
+      "usageDescription": "Der Lebenslauf umfasst die Abschnitte Ausbildung, Berufserfahrung und eine Zeitleiste, um meinen Karriereverlauf zu veranschaulichen.",
+      "ariaLabel": "Lebenslauf in verschiedenen Darstellungsformen",
+      "educationTitle": "Ausbildung",
+      "workTitle": "Berufserfahrung",
+      "detailTimelineTitle": "Detaillierter Zeitstrahl"
+    },
+    "Experience": {
+      "General": {
+        "sinceDate": "Seit {timeStart, date, monthYear}"
+      },
+      "Education": {
+        "ALevel": {
+          "title": "Allgemeine Hochschulreife",
+          "institution": "Regental Gymnasium Nittenau",
+          "furtherInformation": "Schnitt: {gdp , number}"
+        },
+        "Bachelor": {
+          "title": "Bachelor of Science Informatik",
+          "institution": "Ostbayerische Technische Hochschule Regensburg",
+          "furtherInformation": "Schnitt: {gdp, number}",
+          "Details": {
+            "itBasics": "Breite Basis in Theoretischer IT",
+            "variousProgrammingLanguages": "Einblick in verschiedene Programmiersprachen und Techniken",
+            "bachelorTitle": "Bachelorarbeit: Entwicklung eines Konzepts zur schrittweisen Migration schnelllebiger Javascript Frameworks am Beispiel von Dojo und React"
+          }
+        },
+        "Master": {
+          "title": "Master of Science Informatik",
+          "institution": "Ostbayerische Technische Hochschule Regensburg",
+          "furtherInformation": "Schnitt: {gdp, number} (Ja, nochmal)",
+          "Details": {
+            "focus": "Schwerpunkt: Software Engineering",
+            "specializing": "Spezialisierung in verschiedenen Themen. Viel Praxisarbeit",
+            "scientificWorking": "Vertiefung von wissenschaftlichem Arbeiten",
+            "masterTitle": "Masterarbeit in Englisch: Concept and test development for distributed transactions in microservice architectures"
+          }
+        }
+      },
+      "Work": {
+        "Internship": {
+          "title": "Praktikum Softwarentwicklung",
+          "institution": "Knowis AG, Regensburg",
+          "Details": {
+            "scrumTeam": "Teil eines Scrum Teams zur Entwicklung einer Bankensoftware",
+            "infrastructureScripting": "Entwicklung von CI/CD Skripten mit Python und Jenkins",
+            "javaFeatureDevelopment": "Entwicklung von Features am Server mit Java 8",
+            "frontendDevelopment": "Entwicklung von Features am Client mit Javascript und Dojo v1 (framework)"
+          }
+        },
+        "WorkingStudent": {
+          "title": "Werksstudent Frontend Entwicklung",
+          "institution": "Knowis AG, Regensburg",
+          "Details": {
+            "scrumTeam": "Teil verschiedener Scrum Teams zur Entwicklung von Anwendungen für Banken",
+            "onboarding": "Onboarding neuer Praktikanten und Mitarbeiter",
+            "frontendDev": "Frontend Entwicklung mit Dojo v1 und später React"
+          }
+        },
+        "FrontendDeveloper": {
+          "title": "Frontend Entwickler - React",
+          "institution": "Witt Gruppe",
+          "Details": {
+            "scrumTeam": "Teil eines Scrum Teams zur Entwicklung eines E-Commerce Shops",
+            "frontendDev": "Entwicklung von Features am Frontend und Backend mit NextJs, React und Typescript",
+            "onboardingAndPair": "Onboarding neuer Mitarbeiter und Pair Programming zum Support anderer Entwickler",
+            "projectLead": "Bearbeitung asynchroner Aufgaben wie die Koordination und Evaluierung neuer Monitoring Tools"
+          }
+        },
+        "SolutionArchitect": {
+          "title": "Neue Rolle: Solution Architect",
+          "institution": "Witt Gruppe",
+          "Details": {
+            "previousResponsibilities": "Alle Tätigkeiten des Frontend Entwicklers",
+            "interTeamCommunication": "Representant für das Team in der Kommunikation mit anderen technischen Teams im Unternehmen",
+            "frontendOrga": "Aufbau einer Frontend Organisation im Unternehmen für effizienteren und direkteren Austausch"
+          }
+        },
+        "TechnicalLead": {
+          "title": "Neue Rolle: Technical Lead",
+          "institution": "Witt Gruppe",
+          "Details": {
+            "previousResponsibilities": "Alle Aufgaben des Frontend Entwicklers und Solution Architects (nur weniger)",
+            "technicalResponsibility": "Technische Verantworung für das Produkt (Code Qualität, Architektur, ...)",
+            "poForTechnicalStories": "Erstellung verwaltung und Priorisierung technischer Stories für das Team",
+            "technicalSparringPartner": "Technischer Ansprechpartner für Product Owner und andere Fachbereiche sowie Firmen"
+          }
+        }
+      }
+    },
+    "DetailTimeline": {
+      "description": "Entdecken Sie meinen beruflichen Werdegang durch eine interaktive Zeitleiste, die meine Ausbildung und Berufserfahrungen darstellt. Dieser Abschnitt bietet eine visuelle Darstellung, wie sich mein akademischer Hintergrund und meine beruflichen Wege überschneiden, und gibt einen umfassenden Überblick über meine Entwicklung als Frontend-Entwickler.",
+      "School": {
+        "title": "Allgemeine Hochschulreife",
+        "description": "Regental Gymnasium Nittenau",
+        "footer": "Schnitt: 1,7",
+        "date": "2014"
+      },
+      "BachelorStart": {
+        "title": "Start Bachelor Allgemeine Informatik",
+        "description": "Ostbayrische technische Hochschule Regensburg",
+        "date": "Oktober 2014"
+      },
+      "Internship": {
+        "title": "Praktikum als Softwareentwickler bei der knowis AG in Regensburg",
+        "description": "Teil eines Fullstack Scrum Teams, welches eine Bankensoftware entwickelt.",
+        "footer": "Python, Java 1.8, Javascript, Dojo v1",
+        "date": "September 2016 - Februar 2017"
+      },
+      "WorkingStudentStart": {
+        "title": "Start: Werksstudent Frontend bei der knowis AG in Regensburg",
+        "description": "Teil von zwei unterschiedlichen Fullstack Scrum Teams zur Entwicklung von Bankensoftwaren.",
+        "footer": "Javascript, Dojo v1, React",
+        "date": "März 2017"
+      },
+      "BachelorEnd": {
+        "title": "Bachelor of Science Informatik",
+        "description": "Ostbayrische technische Hochschule Regensburg",
+        "footer": "Schnitt: 1,9",
+        "date": "September 2018"
+      },
+      "MasterStart": {
+        "title": "Start Master Informatik; Schwerpunkt Software Engineering",
+        "description": "Ostbayrische technische Hochschule Regensburg",
+        "date": "Oktober 2018"
+      },
+      "WorkingStudentEnd": {
+        "title": "Ende: Werksstudent Frontend: knowis AG Regensburg",
+        "description": "Teil von zwei unterschiedlichen Fullstack Scrum Teams zur Entwicklung von Bankensoftwaren.",
+        "footer": "Javascript, Dojo v1, React",
+        "date": "Februar 2020"
+      },
+      "MasterEnd": {
+        "title": "Master of Science Informatik; Schwerpunkt Software Engineering",
+        "description": "Ostbayrische technische Hochschule Regensburg",
+        "footer": "Schnitt: 1,9",
+        "date": "April 2020"
+      },
+      "StartWitt": {
+        "title": "Frontend Entwickler bei der Witt Gruppe",
+        "description": "Teil eines cross funktionalen Teams zur Entwicklung der Ecommerce Shopseite",
+        "footer": "Javascript, Typescript, React, NextJS",
+        "date": "April 2020"
+      },
+      "TechnicalLead": {
+        "title": "Technical Lead im Frontend bei der Witt Gruppe",
+        "description": "Technical Lead eines cross funktionalen Teams zur Entwicklung der Ecommerce Shopseite",
+        "footer": "Javascript, Typescript, React, NextJS",
+        "date": "Oktober 2024 - Jetzt"
+      }
     }
   }
 }

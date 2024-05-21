@@ -1,7 +1,4 @@
 {
-  "Index": {
-    "title": "Hello world!"
-  },
   "Metadata": {
     "title": "Stefan Hauser",
     "description": "Homepage of Stefan Hauser, also known as Valor"
@@ -14,6 +11,161 @@
       "cv": "CV",
       "skills": "Skills",
       "contact": "Contact"
+    }
+  },
+  "CV": {
+    "General": {
+      "title": "Curriculum vitae",
+      "description": "Explore my CV to find detailed information about my education and work experience. This section highlights my qualifications and achievements, showcasing my journey as a frontend developer.",
+      "usageDescription": "The CV includes sections on Education, Work Experience, and a Timeline to visualize my career progression.",
+      "ariaLabel": "Curriculum vitae in various views",
+      "educationTitle": "Education",
+      "workTitle": "Work experience",
+      "detailTimelineTitle": "Detailed timeline"
+    },
+    "Experience": {
+      "General": {
+        "sinceDate": "Since {timeStart, date, monthYear}"
+      },
+      "Education": {
+        "ALevel": {
+          "title": "A-Level Degree",
+          "institution": "Regental Gymnasium Nittenau",
+          "furtherInformation": "GPA: {gdp , number}"
+        },
+        "Bachelor": {
+          "title": "Bachelor of Science in IT",
+          "institution": "Ostbayerische Technische Hochschule Regensburg",
+          "furtherInformation": "GPA: {gdp, number}",
+          "Details": {
+            "itBasics": "Broad foundation in theoretical IT",
+            "variousProgrammingLanguages": "Insight into various programming languages and techniques",
+            "bachelorTitle": "Bachelor thesis (in German): Development of a concept for the step-by-step migration of fast-moving Javascript frameworks using the example of Dojo and React"
+          }
+        },
+        "Master": {
+          "title": "Master of Science in IT",
+          "institution": "Ostbayerische Technische Hochschule Regensburg",
+          "furtherInformation": "GPA: {gdp, number} (Yes, again)",
+          "Details": {
+            "focus": "Focus on Software Engineering",
+            "specializing": "Specialization in various topics. Lots of practical tasks",
+            "scientificWorking": "In-depth learning of scientific writing",
+            "masterTitle": "Master thesis (in English): Concept and test development for distributed transactions in microservice architectures"
+          }
+        }
+      },
+      "Work": {
+        "Internship": {
+          "title": "Internship Software Development",
+          "institution": "Knowis AG, Regensburg",
+          "Details": {
+            "scrumTeam": "Part of a Scrum team developing a software for banks",
+            "infrastructureScripting": "Development of CI/CD scripts with Python and Jenkins",
+            "javaFeatureDevelopment": "Development of features on the server with Java 8",
+            "frontendDevelopment": "Development of features on the client with JavaScript and Dojo v1 (framework)"
+          }
+        },
+        "WorkingStudent": {
+          "title": "Working student Frontend Development",
+          "institution": "Knowis AG, Regensburg",
+          "Details": {
+            "scrumTeam": "Part of various Scrum teams for the development of applications for banks",
+            "onboarding": "Onboarding of new Interns and Frontend Developers",
+            "frontendDev": "Frontend Development with Dojo v1 and later React"
+          }
+        },
+        "FrontendDeveloper": {
+          "title": "Frontend Developer - React",
+          "institution": "Witt Group",
+          "Details": {
+            "scrumTeam": "Part of a Scrum team for the development of an e-commerce store",
+            "frontendDev": "Development of frontend and backend features with NextJs, React and Typescript",
+            "onboardingAndPair": "Onboarding new employees and pair programming to support other developers",
+            "projectLead": "Handling asynchronous tasks such as the coordination and evaluation of new monitoring tools"
+          }
+        },
+        "SolutionArchitect": {
+          "title": "New Role: Solution Architect",
+          "institution": "Witt Group",
+          "Details": {
+            "previousResponsibilities": "All responsibilities of the Frontend Developer",
+            "interTeamCommunication": "Representative for the team in communication with other technical teams in the company",
+            "frontendOrga": "Establishment of a company wide front-end organization for more efficient and direct exchange"
+          }
+        },
+        "TechnicalLead": {
+          "title": "New Role: Technical Lead",
+          "institution": "Witt Group",
+          "Details": {
+            "previousResponsibilities": "All responsibilities of the Frontend Developer and Solution Architect (only less)",
+            "technicalResponsibility": "Technical responsibility for the product (code quality, architecture, ...)",
+            "poForTechnicalStories": "Creation, management and prioritization of technical stories for the team",
+            "technicalSparringPartner": "Technical contact for product owners and other departments as well as companies"
+          }
+        }
+      }
+    },
+    "DetailTimeline": {
+      "description": "Explore my professional journey through a timeline showcasing my education and work experiences. This section provides a visual representation of how my academic background and career paths intertwine, offering a comprehensive view of my development as a frontend developer. ",
+      "School": {
+        "title": "A Level Degree",
+        "description": "Regental Gymnasium Nittenau",
+        "footer": "GDP: 1.7",
+        "date": "2014"
+      },
+      "BachelorStart": {
+        "title": "Start Bachelor General IT",
+        "description": "Ostbayrische technische Hochschule Regensburg",
+        "date": "October 2014"
+      },
+      "Internship": {
+        "title": "Internship as Software developer at the knowis AG in Regensburg",
+        "description": "Part of a full stack Team which develops a banking software.",
+        "footer": "Python, Java 1.8, Javascript, Dojo v1",
+        "date": "September 2016 - February 2017"
+      },
+      "WorkingStudentStart": {
+        "title": "Start: Working student Frontend at knowis AG in Regensburg",
+        "description": "Part of two different full stack scrum teams to develop two banking applications.",
+        "footer": "Javascript, Dojo v1, React",
+        "date": "March 2017"
+      },
+      "BachelorEnd": {
+        "title": "Bachelor of Science in IT",
+        "description": "Ostbayrische technische Hochschule Regensburg",
+        "footer": "GDP: 1.9",
+        "date": "September 2018"
+      },
+      "MasterStart": {
+        "title": "Start Master in IT; Focus on Software Engineering",
+        "description": "Ostbayrische technische Hochschule Regensburg",
+        "date": "October 2018"
+      },
+      "WorkingStudentEnd": {
+        "title": "End: Working student Frontend at knowis AG in Regensburg",
+        "description": "Part of two different full stack scrum teams to develop two banking applications.",
+        "footer": "Javascript, Dojo v1, React",
+        "date": "Februar 2020"
+      },
+      "MasterEnd": {
+        "title": "Master of Science in IT; Focus on Software Engineering",
+        "description": "Ostbayrische technische Hochschule Regensburg",
+        "footer": "GDP: 1.9",
+        "date": "April 2020"
+      },
+      "StartWitt": {
+        "title": "Frontend Developer at the Witt Group",
+        "description": "Part of a cross functional Team which develops the e-commerce website of the witt group.",
+        "footer": "Javascript, Typescript, React, NextJS",
+        "date": "April 2020"
+      },
+      "TechnicalLead": {
+        "title": "Technical Lead Frontend at the Witt Group",
+        "description": "Technical Lead of a cross functional Team which develops the e-commerce website of the witt group.",
+        "footer": "Javascript, Typescript, React, NextJS",
+        "date": "October 2024 - Now"
+      }
     }
   }
 }
