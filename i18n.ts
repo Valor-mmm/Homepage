@@ -7,6 +7,14 @@ export default getRequestConfig(async ({ locale }) => {
   if (!locales.includes(locale)) notFound();
 
   return {
+    formats: {
+      dateTime: {
+        monthYear: {
+          month: 'long',
+          year: 'numeric',
+        },
+      },
+    },
     messages: (await import(`./messages/${locale}.json`)).default,
   };
 });

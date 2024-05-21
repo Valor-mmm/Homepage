@@ -17,11 +17,96 @@
     }
   },
   "CV": {
-    "title": "Curriculum vitae",
-    "ariaLabel": "Curriculum vitae in various views",
-    "educationTitle": "Education",
-    "workTitle": "Work experience",
-    "detailTimelineTitle": "Detailed timeline",
+    "General": {
+      "title": "Curriculum vitae",
+      "ariaLabel": "Curriculum vitae in various views",
+      "educationTitle": "Education",
+      "workTitle": "Work experience",
+      "detailTimelineTitle": "Detailed timeline"
+    },
+    "Experience": {
+      "General": {
+        "sinceDate": "Since {timeStart, date, monthYear}"
+      },
+      "Education": {
+        "ALevel": {
+          "title": "A-Level Degree",
+          "institution": "Regental Gymnasium Nittenau",
+          "furtherInformation": "GPA: {gdp , number}"
+        },
+        "Bachelor": {
+          "title": "Bachelor of Science in IT",
+          "institution": "Ostbayerische Technische Hochschule Regensburg",
+          "furtherInformation": "GPA: {gdp, number}",
+          "Details": {
+            "itBasics": "Broad foundation in theoretical IT",
+            "variousProgrammingLanguages": "Insight into various programming languages and techniques",
+            "bachelorTitle": "Bachelor thesis (in German): Development of a concept for the step-by-step migration of fast-moving Javascript frameworks using the example of Dojo and React"
+          }
+        },
+        "Master": {
+          "title": "Master of Science in IT",
+          "institution": "Ostbayerische Technische Hochschule Regensburg",
+          "furtherInformation": "GPA: {gdp, number} (Yes, again)",
+          "Details": {
+            "focus": "Focus on Software Engineering",
+            "specializing": "Specialization in various topics. Lots of practical tasks",
+            "scientificWorking": "In-depth learning of scientific writing",
+            "masterTitle": "Master thesis (in English): Concept and test development for distributed transactions in microservice architectures"
+          }
+        }
+      },
+      "Work": {
+        "Internship": {
+          "title": "Internship Software Development",
+          "institution": "Knowis AG, Regensburg",
+          "Details": {
+            "scrumTeam": "Part of a Scrum team developing a software for banks",
+            "infrastructureScripting": "Development of CI/CD scripts with Python and Jenkins",
+            "javaFeatureDevelopment": "Development of features on the server with Java 8",
+            "frontendDevelopment": "Development of features on the client with JavaScript and Dojo v1 (framework)"
+          }
+        },
+        "WorkingStudent": {
+          "title": "Working student Frontend Development",
+          "institution": "Knowis AG, Regensburg",
+          "Details": {
+            "scrumTeam": "Part of various Scrum teams for the development of applications for banks",
+            "onboarding": "Onboarding of new Interns and Frontend Developers",
+            "frontendDev": "Frontend Development with Dojo v1 and later React"
+          }
+        },
+        "FrontendDeveloper": {
+          "title": "Frontend Developer - React",
+          "institution": "Witt Group",
+          "Details": {
+            "scrumTeam": "Part of a Scrum team for the development of an e-commerce store",
+            "frontendDev": "Development of frontend and backend features with NextJs, React and Typescript",
+            "onboardingAndPair": "Onboarding new employees and pair programming to support other developers",
+            "projectLead": "Handling asynchronous tasks such as the coordination and evaluation of new monitoring tools"
+          }
+        },
+        "SolutionArchitect": {
+          "title": "New Role: Solution Architect",
+          "institution": "Witt Group",
+          "Details": {
+            "previousResponsibilities": "All responsibilities of the Frontend Developer",
+            "interTeamCommunication": "Representative for the team in communication with other technical teams in the company",
+            "frontendOrga": "Establishment of a company wide front-end organization for more efficient and direct exchange"
+          }
+        },
+        "TechnicalLead": {
+          "title": "New Role: Technical Lead",
+          "institution": "Witt Group",
+          "Details": {
+            "previousResponsibilities": "All responsibilities of the Frontend Developer and Solution Architect (only less)",
+            "technicalResponsibility": "Technical responsibility for the product (code quality, architecture, ...)",
+            "poForTechnicalStories": "Creation, management and prioritization of technical stories for the team",
+            "technicalSparringPartner": "Technical contact for product owners and other departments as well as companies"
+          }
+        }
+      }
+    },
     "DetailTimeline": {
       "School": {
         "title": "A Level Degree",

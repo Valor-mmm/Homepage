@@ -5,14 +5,15 @@ import { Education } from '@/features/cv/education';
 import { Work } from '@/features/cv/work';
 
 export const CV = () => {
-  const t = useTranslations('CV');
+  const t = useTranslations('CV.General');
 
   return (
-    <article id="cv" className="min-w-page">
-      <h2 className={'text-2xl mb-4'}>{t('title')}</h2>
+    <article id="cv" className="w-full xl:w-[90%] max-w-[1300px]">
+      <h2 className={'text-3xl mb-4'}>{t('title')}</h2>
       <Tabs
         variant="underlined"
         size="lg"
+        classNames={{ tabContent: 'text-2xl' }}
         aria-label={t('ariaLabel')}
         tabs={[
           { title: t('educationTitle'), key: 'education', item: <Education /> },

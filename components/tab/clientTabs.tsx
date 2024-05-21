@@ -8,7 +8,10 @@ import {
 } from '@nextui-org/tabs';
 import { ReactNode } from 'react';
 
-type TabsProps = Pick<NextUiTabsProps, 'variant' | 'aria-label' | 'size'> & {
+type TabsProps = Pick<
+  NextUiTabsProps,
+  'variant' | 'aria-label' | 'size' | 'classNames'
+> & {
   tabs: Array<
     RequiredNotNull<Pick<TabItemProps, 'key' | 'title'>> & { item: ReactNode }
   >;

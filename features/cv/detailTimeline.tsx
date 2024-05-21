@@ -86,7 +86,6 @@ export const DetailTimeline = () => {
         <TimelineCard
           title={t('MasterStart.title')}
           description={t('MasterStart.description')}
-          footer={t('MasterStart.footer')}
         />
       </TimelineElement>
       <TimelineElement
@@ -128,7 +127,7 @@ export const DetailTimeline = () => {
       <TimelineElement
         color={timelineMilestoneColor}
         position={'right'}
-        date={t('StartWitt.date')}
+        date={t('TechnicalLead.date')}
         icon={<FaLaptopCode />}
       >
         <TimelineCard
