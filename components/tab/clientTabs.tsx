@@ -10,7 +10,7 @@ import { ReactNode } from 'react';
 
 type TabsProps = Pick<
   NextUiTabsProps,
-  'variant' | 'aria-label' | 'size' | 'classNames'
+  'variant' | 'aria-label' | 'aria-describedby' | 'size' | 'classNames'
 > & {
   tabs: Array<
     RequiredNotNull<Pick<TabItemProps, 'key' | 'title'>> & { item: ReactNode }

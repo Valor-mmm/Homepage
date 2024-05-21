@@ -16,6 +16,8 @@
   "CV": {
     "General": {
       "title": "Lebenslauf",
+      "description": "In meinem Lebenslauf finden Sie detaillierte Informationen zu meiner Ausbildung und Berufserfahrung. Dieser Abschnitt zeigt meine Qualifikationen und Erfolge und veranschaulicht meinen Werdegang als Frontend-Entwickler.",
+      "usageDescription": "Der Lebenslauf umfasst die Abschnitte Ausbildung, Berufserfahrung und eine Zeitleiste, um meinen Karriereverlauf zu veranschaulichen.",
       "ariaLabel": "Lebenslauf in verschiedenen Darstellungsformen",
       "educationTitle": "Ausbildung",
       "workTitle": "Berufserfahrung",
@@ -105,6 +107,7 @@
       }
     },
     "DetailTimeline": {
+      "description": "Entdecken Sie meinen beruflichen Werdegang durch eine interaktive Zeitleiste, die meine Ausbildung und Berufserfahrungen darstellt. Dieser Abschnitt bietet eine visuelle Darstellung, wie sich mein akademischer Hintergrund und meine beruflichen Wege überschneiden, und gibt einen umfassenden Überblick über meine Entwicklung als Frontend-Entwickler.",
       "School": {
         "title": "Allgemeine Hochschulreife",
         "description": "Regental Gymnasium Nittenau",

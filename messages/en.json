@@ -16,6 +16,8 @@
   "CV": {
     "General": {
       "title": "Curriculum vitae",
+      "description": "Explore my CV to find detailed information about my education and work experience. This section highlights my qualifications and achievements, showcasing my journey as a frontend developer.",
+      "usageDescription": "The CV includes sections on Education, Work Experience, and a Timeline to visualize my career progression.",
       "ariaLabel": "Curriculum vitae in various views",
       "educationTitle": "Education",
       "workTitle": "Work experience",
@@ -105,6 +107,7 @@
       }
     },
     "DetailTimeline": {
+      "description": "Explore my professional journey through a timeline showcasing my education and work experiences. This section provides a visual representation of how my academic background and career paths intertwine, offering a comprehensive view of my development as a frontend developer. ",
       "School": {
         "title": "A Level Degree",
         "description": "Regental Gymnasium Nittenau",
