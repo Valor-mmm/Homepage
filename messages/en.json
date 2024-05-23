@@ -13,6 +13,12 @@
       "contact": "Contact"
     }
   },
+  "Components": {
+    "ThemeSwitch": {
+      "selectLightTheme": "Select light theme",
+      "selectDarkTheme": "Select dark theme"
+    }
+  },
   "CV": {
     "General": {
       "title": "Curriculum vitae",
