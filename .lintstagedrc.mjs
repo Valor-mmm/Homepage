@@ -11,8 +11,15 @@ const buildPrettierCommand = (filenames) =>
     .join(' ')}`;
 
 const lintStagedResult = {
-  '*.{js,jsx,ts,tsx}': [buildEslintCommand, buildPrettierCommand],
-  '!*.{js,jsx,ts,tsx}': [buildPrettierCommand],
+  '*.{js,jsx,ts,tsx}': [
+    buildEslintCommand,
+    buildPrettierCommand,
+    'prettier --write --ignore-unknown .',
+  ],
+  '!*.{js,jsx,ts,tsx}': [
+    buildPrettierCommand,
+    'prettier --write --ignore-unknown .',
+  ],
 };
 
 export default lintStagedResult;
