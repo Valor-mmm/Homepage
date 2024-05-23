@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { ReactNode, useMemo, useState } from 'react';
 import {
   Navbar as NextUiNavbar,
   NavbarContent,
@@ -27,12 +27,14 @@ interface ClientNavbarProps {
   menuOpenText: string;
   menuCloseText: string;
   anchorLinks: NavbarLinkType[];
+  ThemeSwitcher: ReactNode;
 }
 
 export default function ClientNavbar({
   menuOpenText,
   menuCloseText,
   anchorLinks,
+  ThemeSwitcher,
 }: ClientNavbarProps) {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const urlHash = useUrlHash();
@@ -73,6 +75,7 @@ export default function ClientNavbar({
           </NavbarItem>
         ))}
       </NavbarContent>
+      <NavbarContent justify="end">{ThemeSwitcher}</NavbarContent>
       <NavbarMenu>
         {navLinks.map(({ href, isActive, linkText }, index) => (
           <NavbarMenuItem key={`${href}-${index}`} isActive={isActive}>

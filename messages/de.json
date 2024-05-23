@@ -13,6 +13,12 @@
       "contact": "Kontakt"
     }
   },
+  "Components": {
+    "ThemeSwitch": {
+      "selectLightTheme": "Helles Design auswählen",
+      "selectDarkTheme": "Dunkles Design auswählen"
+    }
+  },
   "CV": {
     "General": {
       "title": "Lebenslauf",
