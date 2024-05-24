@@ -173,5 +173,14 @@
         "date": "Oktober 2024 - Jetzt"
       }
     }
+  },
+  "Skills": {
+    "General": {
+      "heading": "Skills",
+      "mainSkills": "Haupt Skills",
+      "softSkills": "Softskills",
+      "buzzwords": "Buzzword Bingo",
+      "buzzwordsSubtitle": "Programmiersprachen und Tools die ich kenne, aber nicht regelmäßig nutze (nach Skilllevel geordnet)."
+    }
   }
 }

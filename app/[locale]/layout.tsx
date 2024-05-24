@@ -33,9 +33,7 @@ export default function LocaleLayout({
       <body className="text-foreground bg-background">
         <Providers locale={locale}>
           <Navbar />
-          <main className="flex min-h-screen flex-col items-center justify-start p-8 2xl:p-20">
-            {children}
-          </main>
+          {children}
           <Footer />
         </Providers>
       </body>
