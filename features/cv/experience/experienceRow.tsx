@@ -37,7 +37,7 @@ export const ExperienceRow = ({
             <h5 className="text-xl">{institution}</h5>
           </CardHeader>
           {Array.isArray(details) && details?.length > 0 ? (
-            <CardBody>
+            <CardBody className="leading-relaxed">
               <li className="list-disc pl-8">
                 {details.map((detail, index) => (
                   <li key={`${detail}-${index}`}>{detail}</li>
