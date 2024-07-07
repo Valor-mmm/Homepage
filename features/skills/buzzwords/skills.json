@@ -1,0 +1,97 @@
+[
+  {
+    "key": "ProgrammingLanguages.title",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "isKey": false,
+        "level": 8
+      },
+      {
+        "name": "Typescript",
+        "isKey": false,
+        "level": 9
+      },
+      {
+        "name": "Java (1.8)",
+        "isKey": false,
+        "level": 4
+      },
+      {
+        "name": "Scala",
+        "isKey": false,
+        "level": 2
+      },
+      {
+        "name": "Svelte",
+        "isKey": false,
+        "level": 4
+      },
+      {
+        "name": "Angular",
+        "isKey": false,
+        "level": 4
+      },
+      {
+        "name": "Python",
+        "isKey": false,
+        "level": 5
+      },
+      {
+        "name": "React",
+        "isKey": false,
+        "level": 8
+      },
+      {
+        "name": "Next.js",
+        "isKey": false,
+        "level": 8
+      },
+      {
+        "name": "C",
+        "isKey": false,
+        "level": 1
+      },
+      {
+        "name": "Django",
+        "isKey": false,
+        "level": 3
+      },
+      {
+        "name": "Deno",
+        "isKey": false,
+        "level": 4
+      },
+      {
+        "name": "Node.js",
+        "isKey": false,
+        "level": 7
+      }
+    ]
+  },
+  {
+    "key": "Technologies.title",
+    "skills": [
+      {
+        "name": "Mongo DB",
+        "isKey": false,
+        "level": 4
+      },
+      {
+        "name": "My SQL",
+        "isKey": false,
+        "level": 4
+      },
+      {
+        "name": "GraphQL / Apollo",
+        "isKey": false,
+        "level": 7
+      },
+      {
+        "name": "REST",
+        "isKey": false,
+        "level": 7
+      }
+    ]
+  }
+]

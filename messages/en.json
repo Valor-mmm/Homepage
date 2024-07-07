@@ -176,7 +176,19 @@
   },
   "Skills": {
     "General": {
-      "heading": "Skills"
+      "heading": "Skills",
+      "mainSkills": "Main Skills",
+      "softSkills": "Softskills",
+      "buzzwords": "Buzzword Bingo",
+      "buzzwordsSubtitle": "Programming languages and other tools i know but do not use on a day to day basis (ordered descending by Skill level)."
+    },
+    "Buzzwords": {
+      "ProgrammingLanguages": {
+        "title": "Programming Languages and Frameworks"
+      },
+      "Technologies": {
+        "title": "Databases and other technologies"
+      }
     }
   }
 }

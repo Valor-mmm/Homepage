@@ -180,7 +180,15 @@
       "mainSkills": "Haupt Skills",
       "softSkills": "Softskills",
       "buzzwords": "Buzzword Bingo",
-      "buzzwordsSubtitle": "Programmiersprachen und Tools die ich kenne, aber nicht regelmäßig nutze (nach Skilllevel geordnet)."
+      "buzzwordsSubtitle": "Programmiersprachen und Tools die ich kenne, aber nicht regelmäßig nutze (nach Skilllevel absteigend geordnet)."
+    },
+    "Buzzwords": {
+      "ProgrammingLanguages": {
+        "title": "Programmiersprachen und Frameworks"
+      },
+      "Technologies": {
+        "title": "Datenbanken und andere Technologien"
+      }
     }
   }
 }

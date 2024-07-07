@@ -4,6 +4,7 @@ import {
   AccordionProps,
 } from '@/components/accordion/clientAccordion';
 import { ReactNode } from 'react';
+import { Buzzwords } from '@/features/skills/buzzwords/buzzwords';
 
 interface AccordionItemDefinition {
   titleKey: string;
@@ -20,7 +21,7 @@ export const Skills = () => {
     {
       titleKey: 'buzzwords',
       subtitleKey: 'buzzwordsSubtitle',
-      content: <div>Hello1</div>,
+      content: <Buzzwords />,
     },
   ];
 
@@ -35,7 +36,7 @@ export const Skills = () => {
       title: itemTitle,
       key: titleKey,
       itemContent: content,
-      subtitle: <span>{t(subtitleKey)}</span>,
+      subtitle: subtitleKey ? <span>{t(subtitleKey)}</span> : undefined,
     };
   };
 
